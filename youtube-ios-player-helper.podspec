@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
                          your Objective-C code
                        DESC
 
-  s.homepage           = "https://developers.google.com/youtube/v3/guides/ios_youtube_helper"
+  s.homepage           = "https://github.com/taktem/youtube-ios-player-helper.git"
   s.license            = {
                             :type => 'Apache',
                             :text => <<-LICENSE
@@ -38,10 +38,9 @@ Pod::Spec.new do |s|
                             LICENSE
                          }
   s.author             = { "Taku Nishimura" => "nishimura@taktem.com" }
-  s.social_media_url   = "https://twitter.com/YouTubeDev"
   s.source             = { :git => "https://github.com/taktem/youtube-ios-player-helper.git", :tag => "0.1.4" }
 
-  s.platform     = :ios, '6.0'
+  s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'Classes'
