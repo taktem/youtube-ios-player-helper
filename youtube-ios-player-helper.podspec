@@ -37,9 +37,7 @@ Pod::Spec.new do |s|
                               limitations under the License.
                             LICENSE
                          }
-  s.author             = { "Ikai Lan" => "",
-                           "Ibrahim Ulukaya" => "ulukaya@google.com",
-                           "Yoshifumi Yamaguchi" => "yoshifumi@google.com" }
+  s.author             = { "Taku Nishimura" => "nishimura@taktem.com" }
   s.social_media_url   = "https://twitter.com/YouTubeDev"
   s.source             = { :git => "https://github.com/taktem/youtube-ios-player-helper.git", :tag => "0.1.4" }
 
